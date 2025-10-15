@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>🎉 ¡Felicidades! 🎉</title>
+  <title>🎉 Tarjeta secreta lol 🎉</title>
   <style>
     :root{--bg:#0f1724;--card:#0b1220;--accent:#ffdd57}
     html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
@@ -17,6 +17,7 @@
     canvas.confetti{position:absolute;inset:0;pointer-events:none;z-index:-1}
     .footer{display:flex;gap:10px;align-items:center;justify-content:flex-end;margin-top:16px}
     .small{font-size:0.85rem;color:rgba(230,238,248,0.65)}
+    .image-container img{max-width:300px;margin-top:20px;border-radius:12px;}
 
     @keyframes popIn{from{opacity:0;transform:scale(0.5);}to{opacity:1;transform:scale(1);}}
     @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
@@ -36,7 +37,10 @@
 
     <section class="card" id="card">
       <div class="message" id="msg">¡Felicidades — tienes la tarjeta secreta!</div>
-      <div class="subtitle">Este es tu premio especial 💎</div>
+      <div class="subtitle">Te puedes quedar la tarjeta!!!!</div>
+      <div class="image-container">
+        <img src="https://media.istockphoto.com/id/1226788962/es/foto/gato-en-sombrero-de-cumplea%C3%B1os-sostiene-vino.jpg?s=1024x1024&w=is&k=20&c=k9LZY4XPFVfIIiYrtDLnNXA4TO0_4bBykdqOB2Lhysw=" alt="Premio sorpresa" />
+      </div>
     </section>
 
     <div class="footer">
